@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgb(233,233,233);
+  font-weight: 300;
+  background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+div#menu {
+width: 700px;
+height: auto;
+margin: 100px auto;
+background: linear-gradient(to right, #2a0845, #6441A5);
+text-align: center;
+}
+div#menu div {
+border: 5px solid white;
+
+margin-top: -5px;
+height: 120px;
+}
+div#titulo {
+font-size: 60px;
+}
+div.online {
+background-color: green;
+}
+div.offline {
+background-color: red
+}
+
+img {
+display: block;
+margin-left: 40px;
+margin-top: 20px;
+margin-right: auto;
+width: 50px;
+height: 50px;
+}
+span.col-5 {
+margin-top: 30px;
+}
